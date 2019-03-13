@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 
 import Clock from "./clock.jsx"
 import Tabs from "./tabs.jsx"
+import Weather from "./weather.jsx"
 
 const panes = [
   {title: 'one', content: "first content"},
@@ -14,6 +15,7 @@ function Root(){
     <div>
       <Clock/>
       <Tabs panes = {panes}/>
+      <Weather/>
     </div>
   )
 }
