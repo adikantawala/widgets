@@ -59,7 +59,7 @@ export default class Weather extends React.Component{
     } else {
       content = <div className='loading'>loading weather...</div>;
     }
-    console.log(this.state.weather)
+
     return(
       <div>
         <h1>Weather</h1>
